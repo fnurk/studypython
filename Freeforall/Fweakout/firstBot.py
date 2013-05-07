@@ -1,8 +1,15 @@
+'''
+IRC bot made for the #studypython channel
+Current contributors: 
+- fnurk
+- fweakout
+'''
+
 import socket
 
 network = 'irc.freenode.net'
-channel = '#StudypythonBotTest1'
-nick = 'StudyBotfnurkstyle'
+channel = '#studypython'
+nick = 'StudyBot'
 
 chanMsg = "PRIVMSG %s :" %channel
 
