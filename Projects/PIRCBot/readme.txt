@@ -4,10 +4,10 @@ This is the first project, we're going to make an IRC bot.
 
 Messages are sent over IRC looking like this:
 
-:fnurk_!5efe164b@gateway/web/freenode/ip.94.254.22.75 PRIVMSG #fnurkstestsite :hello
+:fnurk_!5efe164b@gateway/web/freenode/ip9.9.99.9.9 PRIVMSG #fnurkstestsite :hello
 
 Where 	"fnurk_" is the nickname
-	"5efe164b@gateway/web/freenode/ip.94.254.22.75" is the host,
+	"5efe164b@gateway/web/freenode/ip9.9.9.9.99" is the host,
 	"PRIVMSG" is the type of message and 
 	"#fnurkstestsite" is the target
 	"hello" is the message itself.
