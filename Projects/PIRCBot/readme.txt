@@ -9,6 +9,7 @@ Messages are sent over IRC looking like this:
 Where 	"fnurk_" is the nickname
 	"5efe164b@gateway/web/freenode/ip.94.254.22.75" is the host,
 	"PRIVMSG" is the type of message and 
+	"#fnurkstestsite" is the target
 	"hello" is the message itself.
 	the ":"s and the "!" are part of the message syntax.
 
