@@ -19,3 +19,5 @@ Useful links:
     http://docs.python.org/2/library/string.html#string-functions
   Wikipedia:
     http://en.wikipedia.org/wiki/List_of_Internet_Relay_Chat_commands
+  BotTest(Test your bots, autojoins three channels.):
+    http://fnurkswebsite.tk/chat/
