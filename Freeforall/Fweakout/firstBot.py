@@ -1,10 +1,10 @@
 import socket
 
 network = 'irc.freenode.net'
-channel = '#studypython'
-nick = 'StudyBot'
+channel = '#StudypythonBotTest1'
+nick = 'StudyBotfnurkstyle'
 
-chanMsg = "PRIVMSG #studypython :"
+chanMsg = "PRIVMSG %s :" %channel
 
 alive = True
 
@@ -12,15 +12,15 @@ def ping():
     irc.send("PONG :Pong\n")
 
 def joinChan(chan):
-    irc.send("JOIN "+chan+"\n")
+    irc.send("JOIN %s\n" %chan)
 
 def sendMsg(msg):
-    irc.send("PRIVMSG #studypython :"+ msg +"\n")
+    irc.send("PRIVMSG %s :%s\n" %channel,msg)
 
 irc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 irc.connect((network,6667))
-irc.send("USER "+nick+" "+nick+" "+nick+" :fweakout bot\n")
-irc.send("NICK "+nick+"\n")
+irc.send("USER %s %s %s :fweakout bot\n" %(nick,nick,nick))
+irc.send("NICK %s\n" %nick)
 
 joinChan(channel)
 
