@@ -19,3 +19,5 @@ Useful links:
     http://docs.python.org/2/library/string.html#string-functions
   Wikipedia:
     http://en.wikipedia.org/wiki/List_of_Internet_Relay_Chat_commands
+  Connect to 3 test channels(pick one that isn't very crowded):
+    http://94.254.22.75/chat/
