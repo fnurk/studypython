@@ -1,8 +1,8 @@
 import socket
 
 network = 'irc.freenode.net'
-channel = '#StudypythonBotTest1'
-nick = 'StudyBotfnurkstyle'
+channel = '#studypython'
+nick = 'ProcrastinationBot'
 
 chanMsg = "PRIVMSG %s :" %channel
 
@@ -27,6 +27,7 @@ joinChan(channel)
 while alive:
     ircmsg = irc.recv(2048)
     ircmsg = ircmsg.strip('\n\r')
+
     print ircmsg
 
     if ircmsg.find(":Hello "+nick) != -1:
